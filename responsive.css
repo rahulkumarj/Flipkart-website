@@ -1,0 +1,40 @@
+@media screen and (max-width:1000px)
+{
+    body
+    {
+background-color:red;
+    }
+    .logo
+    {
+    margin:0px 0px;
+    display:flex;
+
+    justify-content: center;
+    }
+    nav{
+        flex-direction: column
+
+    }
+    nav ul 
+    {
+    display: flex;
+    flex-direction: column;
+    height:12vw;
+    }
+    nav ul li
+    {
+    display: flex;
+    flex-direction: column;
+
+    }
+    header
+    {
+    height:34vh;
+    }
+    .search
+    {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+}

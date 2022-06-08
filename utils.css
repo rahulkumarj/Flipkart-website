@@ -1,0 +1,14 @@
+*
+{
+    margin:0px;
+    padding:0px;
+}
+.flex-all-center
+{
+    height:12vh;
+    color:white;
+    font: 1em sans-serif;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}

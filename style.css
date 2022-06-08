@@ -1,0 +1,140 @@
+:root{
+    --main-bg-color:#2874f0;
+}
+
+body
+{
+    font-family: 'lato',sans-serif;
+    padding:0;
+    margin: 0;
+    overflow-x: hidden;
+}
+nav
+{
+display:flex;
+width:100vw;
+overflow-x: hidden;
+overflow-y: hidden;
+}
+
+.logo
+{
+    width: 170px;
+    padding: 9px 23px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img
+{
+    width: 62%;
+    height: 62%;
+}
+
+header
+{
+    height:9vh;
+    background-color:var(--main-bg-color);
+}
+
+footer
+{
+    width:100vw;
+    transform: translateY(314px);
+    overflow-x: hidden;   /* unneccessary items will hide themselves so we have to use this property */
+    
+    background-color:var(--main-bg-color);
+    
+}
+
+nav ul
+{
+    display:flex;
+    height:9vh;
+    align-items: center; 
+    padding:0px 12px;
+    /* in y direction  */
+}
+nav ul li{
+    list-style: none;
+    padding:0 23px;
+    
+    margin:12px 12px;
+    
+}
+nav ul li a
+{
+    color: rgb(212, 214, 214);
+    text-decoration: none;
+
+}
+nav ul li a:hover
+{
+    color:azure;
+}
+.container
+{
+    height: 90vh;
+}
+.search{
+    display: flex;
+    align-items:center;
+}
+.search input
+{
+    width:10vw;
+}
+.btn
+{
+    width: 59px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slider img
+{
+    width: 95vw;
+    height: 49vh;
+    transform:translateX(24px);
+}
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-item
+{   
+    width:12vw;
+    height:38vh;
+    /* background-color: rgb(124, 55, 55); */
+    margin:12px 12px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+.card-item img
+{   
+    position: relative;
+    top: -24px;
+    height: 13vh;
+    width: 10vw;
+}
+
+#para
+{
+width:10vw;
+font-size:0.7rem;
+}
+.first
+{
+  display: flex;  
+}
+.second
+{
+    display: flex;
+}
